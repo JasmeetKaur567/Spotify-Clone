@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ================= META ================= -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================= FONT AWESOME ================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- ================= TITLE ================= -->
+    <title>Spotify Web Player</title>
+
+    <!-- ================= CSS FILE ================= -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ================= GOOGLE FONTS ================= -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= MAIN CONTAINER ================= -->
+    <div class="main">
+
+        <!-- ================= SIDEBAR ================= -->
+        <div class="sidebar"> <!-- FIXED: was slidebar -->
+
+            <!-- ===== NAVIGATION ===== -->
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <!-- ===== LIBRARY SECTION ===== -->
+            <div class="library">
+                <div class="options">
+
+                    <!-- Library Icon -->
+                    <div class="lib-option nav-option">
+                        <img src="images/library.png" alt=""> <!-- FIX: local path removed -->
+                        <a href="#">Your Library</a>   
+                    </div>
+
+                    <!-- Icons -->
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <!-- Playlist Section -->
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts</p>
+                        <p class="box-p2">We'll keep you updated</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= MAIN CONTENT ================= -->
+        <div class="main_content">
+
+            <!-- ===== TOP NAVBAR ===== -->
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="images/back.png" alt="">
+                    <img src="images/forward.png" class="hide" alt="">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge">
+                        <i class="fa-regular fa-circle-down"></i> Install App
+                    </button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <!-- ===== CARDS SECTION ===== -->
+            <h2>Recently Played</h2>
+
+            <div class="cards-container">
+                <div class="card">
+                    <img src="images/card1.jpg" class="card-img" alt="">
+                    <i class="fa-solid fa-play"></i>
+                    <p class="card-title">Top 50 Global</p>
+                    <p class="card-info">Most played tracks</p>
+                </div>
+            </div>
+
+            <!-- ===== TRENDING SECTION ===== -->
+            <h2>Trending Now</h2>
+
+            <div class="cards-container">
+                <div class="card">
+                    <img src="images/card2.jpg" class="card-img" alt="">
+                    <i class="fa-solid fa-play"></i>
+                    <p class="card-title">Top Hits</p>
+                    <p class="card-info">Daily trending songs</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ================= MUSIC PLAYER ================= -->
+        <div class="music-player">
+
+            <!-- Player Controls -->
+            <div class="player">
+                <div class="player-controls">
+                    <img src="images/play.png" class="player-control-icon" alt="">
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="playback-bar">
+                    <span>00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span>3:33</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <hr>
+    <p class="copyright">© 2024 Spotify</p>
+
+    <!-- ================= PREVIEW BANNER ================= -->
+    <div class="preview">
+        <div>
+            <h4>Preview of Spotify</h4>
+            <p>Sign up to get unlimited songs</p>
+        </div>
+        <button>Sign Up Free</button>
+    </div>
+
+</body>
+</html>
