@@ -1,7 +1,7 @@
 # Spotify Clone 🎵....
 
 ## 🚀 About Project
-This is a Spotify-inspired web application that replicates the basic UI of the Spotify music player.
+This is a Spotify-inspired web application that replicates the basic UI of the Spotify music player and frontend.
 
 ## 🛠 Tech Stack
 - HTML
@@ -16,7 +16,7 @@ This is a Spotify-inspired web application that replicates the basic UI of the S
 ## 📸 Screenshots
 (Add screenshots here)
 
-## 🔧 Future Improvements
+## 🔧 Future Improvements of project
 - Add play/pause functionality
 - Integrate music API
 - Improve UI/UX
