@@ -1,4 +1,4 @@
-# Spotify Clone 🎵.... My Project
+# Spotify Clone 🎵.... My Project amazing onee
 
 ## 🚀 About Project
 This is a Spotify-inspired web application that replicates the basic UI of the Spotify music player and frontend.
